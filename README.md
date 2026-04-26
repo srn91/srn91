@@ -4,7 +4,7 @@ I build data and ML systems that are designed to be runnable, inspectable, and d
 
 ## Start Here
 
-These are the six projects I would want a recruiter or hiring manager to open first:
+If you want the fastest tour of the portfolio, start with these six projects:
 
 1. [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform)  
    Live demo: [streaming-feature-platform-demo.onrender.com](https://streaming-feature-platform-demo.onrender.com)  
