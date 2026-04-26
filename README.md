@@ -48,7 +48,7 @@ If you want the fastest tour of the portfolio, start with these six projects:
 ### AI Workflow Applications
 
 - [agent-workflow-studio](https://github.com/srn91/agent-workflow-studio): supervisor-worker orchestration with retries, approval gates, and traces.
-- [document-intelligence-copilot](https://github.com/srn91/document-intelligence-copilot): document extraction, validation, and reviewer-ready exception packets.
+- [document-intelligence-copilot](https://github.com/srn91/document-intelligence-copilot): document extraction, validation, and human-review exception packets.
 - [experimentation-lab](https://github.com/srn91/experimentation-lab): CUPED-based experimentation, sequential readouts, and power-planning analysis.
 
 ## What To Look For
