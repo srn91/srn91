@@ -53,7 +53,7 @@ If you want the fastest tour of the portfolio, start with these six projects:
 
 ## What To Look For
 
-- Every repo has a public README with problem framing, architecture, tradeoffs, run steps, validation notes, and next steps.
+- Every repo has a public README with problem framing, architecture, tradeoffs, run steps, and validation notes.
 - Every repo has a live hosted deployment or demo URL attached at the GitHub repository level.
 - Every repo was verified locally and in CI, and the live services were smoke-tested after deployment.
 
