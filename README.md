@@ -1,65 +1,67 @@
 # Sathwik Rao Nadipelli
 
-I build data and ML systems that are designed to be runnable, inspectable, and defensible in production. This portfolio focuses on the engineering seams that often get skipped in demos: online/offline consistency, evaluation, observability, schema safety, deployment verification, and release-time quality gates.
+**AI/Data Systems Engineer | M.S. Data Science, Rutgers | RAG, Streaming Data, MLOps, ML Platforms**
 
-## Start Here
+I build production-style AI and data systems that are runnable, inspectable, and defensible: RAG pipelines, streaming feature platforms, model training/serving workflows, data contract checks, model monitoring, and agentic workflow automation.
 
-If you want the fastest tour of the portfolio, start with these six projects:
+My portfolio is organized around the proof hiring teams usually look for in senior AI/ML, data engineering, and platform roles: architecture, reproducible setup, API contracts, evaluation metrics, observability, reliability checks, and deployed demos.
 
-1. [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform)  
-   Live demo: [streaming-feature-platform-demo.onrender.com](https://streaming-feature-platform-demo.onrender.com)  
-   Focus: streaming feature computation, online/offline reconciliation, schema safety, and low-latency serving.
-2. [rag-ops-platform](https://github.com/srn91/rag-ops-platform)  
-   Live demo: [rag-ops-platform.onrender.com](https://rag-ops-platform.onrender.com)  
-   Focus: grounded retrieval, reranking, citations, and evaluation for auditable RAG systems.
-3. [ml-training-serving-platform](https://github.com/srn91/ml-training-serving-platform)  
-   Live demo: [ml-training-serving-platform.onrender.com](https://ml-training-serving-platform.onrender.com)  
-   Focus: reproducible training, artifact registration, batch scoring, and offline-to-online parity validation.
-4. [lakehouse-reliability-lab](https://github.com/srn91/lakehouse-reliability-lab)  
-   Live demo: [lakehouse-reliability-lab.onrender.com](https://lakehouse-reliability-lab.onrender.com)  
-   Focus: medallion pipeline reliability, deduplication, reconciliation, and schema drift handling.
-5. [ranking-serving-engine](https://github.com/srn91/ranking-serving-engine)  
-   Live demo: [ranking-serving-engine.onrender.com](https://ranking-serving-engine.onrender.com)  
-   Focus: feature-backed ranking, offline evaluation, freshness-aware serving, and top-k APIs.
-6. [model-monitoring-drift-lab](https://github.com/srn91/model-monitoring-drift-lab)  
-   Live demo: [model-monitoring-drift-lab.onrender.com](https://model-monitoring-drift-lab.onrender.com)  
-   Focus: PSI / KS / KL drift detection, delayed outcomes, and incident-style monitoring summaries.
+## Flagship Proof
+
+| Project | What it proves | Evidence to inspect |
+|---|---|---|
+| [rag-ops-platform](https://github.com/srn91/rag-ops-platform) | Grounded RAG, hybrid retrieval, citation-backed answers, retrieval evaluation | `retrieval_hit_rate_at_3=1.0`, `citation_hit_rate=1.0`, `MRR=1.0`, `11` passing tests, `/query`, `/evaluation` |
+| [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform) | Real-time feature delivery, online/offline consistency, ML-ready data exports | Redpanda, Redis, DuckDB, FastAPI, `/quality/summary`, `/metrics`, GCP Pub/Sub + BigQuery dry-run bundle |
+| [ml-training-serving-platform](https://github.com/srn91/ml-training-serving-platform) | Training-to-serving lifecycle, artifact registry, multi-version inference, parity checks | scikit-learn + PyTorch artifacts, rollback metadata, `/predict`, `/models`, offline-online delta `<=1e-6` |
+| [model-monitoring-drift-lab](https://github.com/srn91/model-monitoring-drift-lab) | Post-deployment model reliability and incident-style monitoring | `2,000` reference rows, `5` rolling windows, PSI `2.0372`, KS `0.6170`, log loss `0.2889 -> 0.5905` |
+| [cdc-data-contract-hub](https://github.com/srn91/cdc-data-contract-hub) | Schema evolution, CDC compatibility, lineage-aware blast-radius reporting | breaking-change classification, exception expiry, impacted consumers, `/demo/report` |
+| [agent-workflow-studio](https://github.com/srn91/agent-workflow-studio) | Agentic workflow orchestration with bounded tools, retries, approval gates, and traces | JSONL traces, SQLite run records, timing telemetry, manual approval endpoint, FastAPI demo |
 
 ## Portfolio Map
 
-### Data Platforms
+### GenAI / LLM Systems
 
-- [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform): streaming feature infrastructure with Redpanda, DuckDB, Redis, and FastAPI.
-- [lakehouse-reliability-lab](https://github.com/srn91/lakehouse-reliability-lab): medallion-style lakehouse validation and reconciliation workflow.
-- [cdc-data-contract-hub](https://github.com/srn91/cdc-data-contract-hub): CDC schema governance and lineage-aware contract compatibility checks.
+- [rag-ops-platform](https://github.com/srn91/rag-ops-platform): auditable RAG pipeline with hybrid retrieval, reranking, citations, latency diagnostics, and golden-set evaluation.
+- [agent-workflow-studio](https://github.com/srn91/agent-workflow-studio): supervisor-worker workflow with bounded local tools, retry handling, human approval, JSONL traces, and persisted run records.
+- [document-intelligence-copilot](https://github.com/srn91/document-intelligence-copilot): document extraction, validation, human-review packets, and correction feedback loops for unstructured content.
 
-### ML Systems
+### Data Engineering / AI Data Platforms
 
-- [ml-training-serving-platform](https://github.com/srn91/ml-training-serving-platform): train-to-serve lifecycle with artifact registration and parity validation.
-- [model-monitoring-drift-lab](https://github.com/srn91/model-monitoring-drift-lab): model and data drift monitoring with incident reporting.
-- [uplift-decision-engine](https://github.com/srn91/uplift-decision-engine): treatment-effect targeting and intervention recommendation workflow.
+- [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform): Kafka/Redpanda feature platform with DuckDB, Redis, FastAPI, freshness checks, reconciliation, Prometheus metrics, and GCP dry-run assets.
+- [cdc-data-contract-hub](https://github.com/srn91/cdc-data-contract-hub): CDC schema governance with compatibility classification, lineage, temporary waivers, and break alerts.
+- [lakehouse-reliability-lab](https://github.com/srn91/lakehouse-reliability-lab): lakehouse reliability workflow for deduplication, late-arrival handling, reconciliation, anomaly detection, and SLA-style reporting.
 
-### Retrieval, Ranking, and Recommendations
+### MLOps / ML Platform
 
-- [rag-ops-platform](https://github.com/srn91/rag-ops-platform): inspectable hybrid retrieval and RAG evaluation.
-- [ranking-serving-engine](https://github.com/srn91/ranking-serving-engine): query-item ranking with artifact-backed serving.
+- [ml-training-serving-platform](https://github.com/srn91/ml-training-serving-platform): train/register/serve/validate lifecycle with scikit-learn, PyTorch, artifact manifests, rollback metadata, and FastAPI inference.
+- [model-monitoring-drift-lab](https://github.com/srn91/model-monitoring-drift-lab): PSI, KS, KL divergence, delayed-outcome quality, prediction shift, incident reports, and read-only monitoring APIs.
+- [ranking-serving-engine](https://github.com/srn91/ranking-serving-engine): feature-backed ranking service with offline evaluation, freshness-aware serving, and top-k APIs.
+
+### Applied ML / Data Science
+
+- [uplift-decision-engine](https://github.com/srn91/uplift-decision-engine): treatment-effect modeling and intervention recommendation workflow.
+- [experimentation-lab](https://github.com/srn91/experimentation-lab): CUPED-based experimentation, sequential readouts, power planning, and decision reports.
 - [recommendation-studio](https://github.com/srn91/recommendation-studio): candidate scoring, cold-start fallback, and diversity-aware reranking.
+- [multi-agent-trading-system](https://github.com/srn91/multi-agent-trading-system): multi-agent research engine with regime/risk signals, walk-forward validation, and auditable decision logs.
 
-### AI Workflow Applications
+## Core Stack
 
-- [agent-workflow-studio](https://github.com/srn91/agent-workflow-studio): supervisor-worker orchestration with retries, approval gates, and traces.
-- [document-intelligence-copilot](https://github.com/srn91/document-intelligence-copilot): document extraction, validation, and human-review exception packets.
-- [experimentation-lab](https://github.com/srn91/experimentation-lab): CUPED-based experimentation, sequential readouts, and power-planning analysis.
+- **AI / GenAI:** RAG, LangChain-style orchestration, embeddings, hybrid retrieval, reranking, citations, guardrails, evaluation, agent workflows
+- **Data Engineering:** Python, SQL, Spark, Kafka/Redpanda, DuckDB, Redis, BigQuery, GCP Pub/Sub, CDC, schema evolution, data contracts
+- **MLOps:** MLflow-style artifacts, FastAPI, Docker, model registry patterns, drift detection, CI/CD, Prometheus metrics, rollback metadata
+- **ML / Data Science:** scikit-learn, PyTorch, LightGBM, uplift modeling, experimentation, ranking, recommendation systems, statistical evaluation
 
-## What To Look For
+## What To Check In Each Repo
 
-- Every repo has a public README with problem framing, architecture, tradeoffs, run steps, and validation notes.
-- Every repo has a live hosted deployment or demo URL attached at the GitHub repository level.
-- Every repo was verified locally and in CI, and the live services were smoke-tested after deployment.
+- Architecture diagram and tradeoffs
+- Reproducible run steps
+- API or CLI examples
+- Evaluation or validation metrics
+- Monitoring, reliability, or failure-mode handling
+- Tests, CI, or verification commands
+- Deployed demo or generated artifacts
 
-## Best Entry Paths
+## Contact
 
-- If you care about data infrastructure, start with [streaming-feature-platform](https://github.com/srn91/streaming-feature-platform).
-- If you care about LLM infrastructure, start with [rag-ops-platform](https://github.com/srn91/rag-ops-platform).
-- If you care about ML lifecycle, start with [ml-training-serving-platform](https://github.com/srn91/ml-training-serving-platform).
-- If you care about experimentation and ranking systems, open [experimentation-lab](https://github.com/srn91/experimentation-lab), [recommendation-studio](https://github.com/srn91/recommendation-studio), and [ranking-serving-engine](https://github.com/srn91/ranking-serving-engine).
+- LinkedIn: [linkedin.com/in/sathwikraonadipelli](https://linkedin.com/in/sathwikraonadipelli)
+- GitHub: [github.com/srn91](https://github.com/srn91)
