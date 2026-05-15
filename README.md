@@ -139,8 +139,7 @@
 ## Activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=srn91&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=srn91&layout=compact&theme=github_dark&hide_border=true&langs_count=8" alt="Top languages" />
+  <img src="assets/activity-snapshot.svg" alt="Engineering activity snapshot" />
 </p>
 
 <p align="center">
